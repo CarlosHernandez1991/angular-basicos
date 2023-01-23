@@ -1,0 +1,18 @@
+<h1>Esto es un component {{title}}</h1>
+
+<ul class="mt-5">
+  <li>
+    <strong>Nombre: </strong> {{nombre}}<br>
+    <strong>Edad: </strong> {{edad}} <br>
+    <strong>Función: </strong> {{optenerNombre()}}<br>
+    <strong>Capitalizado: </strong> {{nombreCapitalizado}}
+  </li>
+</ul>
+
+<button (click)="cambiarNombre()">
+  Cambiar Héroe
+</button>
+
+<button (click)="cambiarEdad()">
+  Cambiar Edad
+</button>
