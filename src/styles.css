@@ -44,3 +44,16 @@ button:focus{
   padding: 10px;
   font-size: 25px;;
 }
+
+.row{
+  display: flex;
+}
+.col{
+  flex-grow: 1;
+  margin-right: 10px;
+}
+
+input{
+  margin: 5px;
+  display: block;
+}
